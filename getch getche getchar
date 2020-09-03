@@ -1,0 +1,18 @@
+#include<stdio.h>
+main()
+{
+	char ch,kl,op;
+	printf("Enter a charachter");
+	ch=getch();
+	printf("\nYou entered %c",ch);   //Wont echo and wont buffer
+  
+  
+	printf("\nenter c2");
+	kl=getche();
+	printf("\nYou enetered %c",kl);    //Echos but wont buffer
+  
+  
+	printf("\nEnter c3");
+	op=getchar();
+	printf("you entered %c",op);       //Echos and buffers
+}
